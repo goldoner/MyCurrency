@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyCurrency" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="center" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ax6-bC-msK" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="24" y="604" width="84.999999999999915" height="84.999999999999886"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f6J-Lo-ccU"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="lDv-Q0-utB"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9me-6x-qCt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3N8-as-ip5" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="210" y="604" width="85.000000000000014" height="84.999999999999886"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="skE-7A-whF"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="4C1-dV-Leh"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XQP-rQ-r3l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0r-Zb-PXT" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="24" y="511" width="84.999999999999915" height="85.000000000000114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3P2-iy-DeG"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="6MF-j3-P4X"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nwg-7x-wk6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOx-f6-Mj2" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="117" y="511" width="85.000000000000242" height="85.000000000000114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qdz-mp-McF"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="fnN-k3-yLX"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6S-Go-wE7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaO-aM-pAi" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="210" y="511" width="85.000000000000014" height="85.000000000000114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTp-d4-LSJ"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="ptT-uO-p9e"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K5L-LN-Bvf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-sI-6EJ" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="24" y="418" width="84.999999999999915" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppr-11-lMr"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="S2M-F1-JM1"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nqi-0b-dIw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udX-Lp-N0f" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="117" y="418" width="85.000000000000242" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IdM-Qt-cv6"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="3dX-yR-Yc1"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C4R-Zj-Yk8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eow-vk-fd2" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="210" y="418" width="85.000000000000014" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FlM-Te-A5c"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="xqq-ad-IFC"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IjO-dH-gZE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iY-Q6-del" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="24" y="697" width="178" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u7v-vM-8eL"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="wtY-1c-qOL"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iFC-fp-dC1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51P-n6-dPa" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="210" y="697" width="85.000000000000014" height="84.999999999999829"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="comaAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mza-p6-Mhe"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="O5U-1L-NUO"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Oy-bi-SGc"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wnX-nV-WXs">
+                                <rect key="frame" x="20" y="186" width="270" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <segments>
+                                    <segment title="$"/>
+                                    <segment title="€"/>
+                                    <segment title="₽"/>
+                                    <segment title="₴"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedSegmentTintColor" systemColor="systemOrangeColor"/>
+                                <connections>
+                                    <action selector="firstBarChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="k4x-gu-5jW"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aq1-nq-TsL">
+                                <rect key="frame" x="20" y="94" width="367" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="NCL-aV-LXo" appends="YES" id="goy-A2-r43"/>
+                                    <outletCollection property="gestureRecognizers" destination="ATL-U3-ck6" appends="YES" id="CZ3-Dg-aID"/>
+                                </connections>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2H-Os-aIc" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="302" y="418" width="84.999999999999829" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="82"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="delete.left" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5sB-W0-FSf"/>
+                                    <action selector="holdReleaseOrange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uNT-Fd-ts5"/>
+                                    <action selector="touchDownOrange:" destination="BYZ-38-t0r" eventType="touchDown" id="AyF-vi-BGg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fN9-gT-3dj" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="352" y="359" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="39"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="arrow.triangle.2.circlepath.circle" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="refreshAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5s-Zg-jzp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGB-yB-KkA" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="302" y="604" width="84.999999999999829" height="84.999999999999886"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="39"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="minus" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="minusButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="45N-Tr-pMv"/>
+                                    <action selector="touchDownOrange:" destination="BYZ-38-t0r" eventType="touchDown" id="lLx-H5-lT7"/>
+                                    <action selector="touchMinusPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQf-60-ClL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTD-bg-998" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="302" y="511" width="84.999999999999829" height="85.000000000000114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="39"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="plus" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="plusButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TQP-8z-rn9"/>
+                                    <action selector="touchDownOrange:" destination="BYZ-38-t0r" eventType="touchDown" id="yO5-ub-5Gm"/>
+                                    <action selector="touchMinusPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LYa-xI-ZuD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMt-T1-sfV" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="117" y="604" width="85.000000000000242" height="84.999999999999886"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="39"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6R-km-xYW"/>
+                                    <action selector="holdDown:" destination="BYZ-38-t0r" eventType="touchDown" id="9fC-TR-Ljf"/>
+                                    <action selector="holdRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qmj-6K-USz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAI-Vy-Vpr" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="302" y="359" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="trash" catalog="system"/>
+                                <connections>
+                                    <action selector="clearAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wB9-QD-NPm"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="8dn-Rc-nDY">
+                                <rect key="frame" x="20" y="359" width="270.00000000000011" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18725712435233166" green="0.18725712435233166" blue="0.18725712435233166" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <segments>
+                                    <segment title="$"/>
+                                    <segment title="€"/>
+                                    <segment title="₽"/>
+                                    <segment title="₴"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedSegmentTintColor" systemColor="systemOrangeColor"/>
+                                <connections>
+                                    <action selector="secondBarChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="hpK-vT-OQa"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZR-jE-zFs">
+                                <rect key="frame" x="20" y="249" width="374" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="vB2-L7-at9" appends="YES" id="xaT-Oh-c0O"/>
+                                </connections>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12j-Yu-1dX" customClass="CustomButton" customModule="MyCurrency" customModuleProvider="target">
+                                <rect key="frame" x="302" y="697" width="84.999999999999829" height="84.999999999999829"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES" staticText="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="39"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <imageReference key="image" image="equal" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="equalsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y0F-mm-O3d"/>
+                                    <action selector="holdReleaseOrange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3wH-h5-J35"/>
+                                    <action selector="touchDownOrange:" destination="BYZ-38-t0r" eventType="touchDown" id="S0m-Lq-FW3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="ax6-bC-msK" id="R8C-FY-mDm"/>
+                        <outlet property="clearOneButton" destination="N2H-Os-aIc" id="qmh-6w-rMm"/>
+                        <outlet property="equalsButton" destination="12j-Yu-1dX" id="4oX-1s-39w"/>
+                        <outlet property="firstBar" destination="wnX-nV-WXs" id="ysx-6B-ZUt"/>
+                        <outlet property="minusButton" destination="tGB-yB-KkA" id="2W5-sz-Mpm"/>
+                        <outlet property="plusButton" destination="fTD-bg-998" id="9Wv-tO-GLS"/>
+                        <outlet property="secondBar" destination="8dn-Rc-nDY" id="rUN-lQ-qLe"/>
+                        <outlet property="textInput" destination="aq1-nq-TsL" id="TRf-nU-O6L"/>
+                        <outlet property="textOutput" destination="AZR-jE-zFs" id="xlW-G2-T3f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="NCL-aV-LXo">
+                    <connections>
+                        <action selector="swipe:" destination="BYZ-38-t0r" id="6gV-PP-Vay"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <tapGestureRecognizer id="ATL-U3-ck6">
+                    <connections>
+                        <action selector="copyAction:" destination="BYZ-38-t0r" id="Ty4-O8-bQx"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="vB2-L7-at9">
+                    <connections>
+                        <action selector="copyOutputAction:" destination="BYZ-38-t0r" id="vdv-I2-T8X"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.61956521739131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.triangle.2.circlepath.circle" catalog="system" width="128" height="121"/>
+        <image name="delete.left" catalog="system" width="128" height="104"/>
+        <image name="equal" catalog="system" width="128" height="72"/>
+        <image name="minus" catalog="system" width="128" height="24"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
